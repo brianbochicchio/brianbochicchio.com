@@ -22,7 +22,7 @@ title: Brian Bochicchio
 email: bbochicchio@gmail.com
 description: >-
   Photographer, creative technologist, and witness to the quiet strangeness of the everyday.
-baseurl: ""
+#baseurl: ""
 url: "https://brianbochicchio.com"
 
 # Social (add/remove as needed)
@@ -38,6 +38,8 @@ include:
   - _pages
 
 baseurl: "/brianbochicchio.com"
+
+image_base_url: "https://pub-bcc8cb0685344ece86b02dce714abe77.r2.dev"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

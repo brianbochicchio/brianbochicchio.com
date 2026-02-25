@@ -4,4 +4,4 @@ title: Archive of Seen Worlds
 permalink: /archive/
 ---
 
-Placeholder portfolio content.
+![Foo Dog]({{ site.image_base_url }}/DSC01039.jpg)
