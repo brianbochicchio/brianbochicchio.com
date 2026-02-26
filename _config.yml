@@ -36,6 +36,7 @@ github_username:
 
 include:
   - _pages
+  - _tags
 
 image_base_url: "https://pub-bcc8cb0685344ece86b02dce714abe77.r2.dev"
 
