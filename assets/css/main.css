@@ -427,3 +427,97 @@ a {
   color: #5a4f42;
   line-height: 1.7;
 }
+
+/* ===== MARKDOWN / PROSE TYPOGRAPHY (Jekyll posts) ===== */
+.post-content,
+.page-content,
+.journal-page {
+  line-height: 1.75;
+}
+
+.post-content p,
+.page-content p,
+.journal-page p {
+  margin: 0 0 1.1rem;
+  color: #3d3224;
+}
+
+.post-content h2,
+.page-content h2,
+.journal-page h2 {
+  margin: 2.2rem 0 0.8rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.post-content h3,
+.page-content h3,
+.journal-page h3 {
+  margin: 1.6rem 0 0.6rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.post-content ul,
+.post-content ol,
+.page-content ul,
+.page-content ol,
+.journal-page ul,
+.journal-page ol {
+  margin: 0 0 1.1rem 1.25rem;
+  padding-left: 1.25rem; /* because reset killed it */
+}
+
+.post-content li,
+.page-content li,
+.journal-page li {
+  margin: 0.35rem 0;
+}
+
+.post-content blockquote,
+.page-content blockquote,
+.journal-page blockquote {
+  margin: 1.4rem 0;
+  padding: 0.25rem 1rem;
+  border-left: 3px solid #d4c9b5;
+  color: #5a4f42;
+}
+
+.post-content hr,
+.page-content hr,
+.journal-page hr {
+  border: 0;
+  border-top: 1px solid #d4c9b5;
+  margin: 2rem 0;
+}
+
+.post-content strong,
+.page-content strong,
+.journal-page strong {
+  font-weight: 600;
+}
+
+.post-content em,
+.page-content em,
+.journal-page em {
+  font-style: italic;
+}
+
+.post-content code,
+.page-content code,
+.journal-page code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+}
+
+.post-content pre,
+.page-content pre,
+.journal-page pre {
+  margin: 1.4rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid #d4c9b5;
+  background: #ede8df;
+}
