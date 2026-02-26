@@ -3,11 +3,11 @@ layout: collection
 title: Light
 description: When light is the subject.
 photos:
-  - file: cover-generatedlight.jpg
-    title: Placeholder
-    caption: More coming soon
+  - file: cover-light.jpg
+    title: HEY YOU GUYS!
+    caption: Tapping the HR Puff n Stuff vibe. 😉
   - file: light-ir-pineneedles.jpg
-    title: Fragile
+    title: Forrested Glass
     caption: Pine needles in colorized infrared.
 ---
   
