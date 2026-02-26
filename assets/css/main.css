@@ -345,3 +345,85 @@ a {
     gap: 2rem;
   }
 }
+
+/* ===== JOURNAL ===== */
+.journal-page {
+  max-width: 900px;
+  margin: 8rem auto 4rem;
+  padding: 0 2rem;
+}
+
+.journal-header {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #d4c9b5;
+  padding-bottom: 2rem;
+}
+
+.journal-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.journal-description {
+  font-size: 0.9rem;
+  color: #7a6e5f;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.journal-entry {
+  border-bottom: 1px solid #d4c9b5;
+  padding: 2rem 0;
+}
+
+.journal-entry a {
+  display: block;
+  transition: opacity 0.2s;
+}
+
+.journal-entry a:hover { opacity: 0.7; }
+
+.entry-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.entry-date {
+  font-size: 0.8rem;
+  color: #7a6e5f;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.entry-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: #7a6e5f;
+  border: 1px solid #d4c9b5;
+  padding: 0.1rem 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.journal-entry h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  color: #2c2416;
+}
+
+.entry-excerpt {
+  font-size: 0.95rem;
+  color: #5a4f42;
+  line-height: 1.7;
+}

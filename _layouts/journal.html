@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="journal-page">
+  <div class="journal-header">
+    <h1>Journal</h1>
+    <p class="journal-description">Photography, process, technology, and the occasional rabbit hole.</p>
+  </div>
+
+  <div class="journal-list">
+    {% for post in site.posts %}
+    <article class="journal-entry">
+      <a href="{{ post.url }}">
+        <div class="entry-meta">
+          <span class="entry-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          {% if post.tags %}
+          <span class="entry-tags">
+            {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </div>
+        <h2>{{ post.title }}</h2>
+        <p class="entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>

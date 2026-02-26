@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: journal
 title: Journal
 permalink: /journal/
 ---
-
-Placeholder journal content.
