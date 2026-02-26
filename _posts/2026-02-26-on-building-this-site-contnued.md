@@ -6,7 +6,7 @@ tags: [tech, process, rabbit holes]
 excerpt: "Third sessions,  more coffee, and an open source idea."
 ---
 
-It's crazy.  How quick this has come toghter.  
+It's crazy.  How quick this has come together.  
 
 So I wrapped up the basic site structure and coding last night.   And thought, how can I make this even easier to use. 
 I don't mind, hand-crafting articles. But image upload and be tendious.  
