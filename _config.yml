@@ -30,9 +30,9 @@ twitter_username:
 github_username:  
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 include:
   - _pages
