@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="collection-page">
+  <div class="collection-header">
+    <a href="/archive/" class="back-link">← Archive</a>
+    <h1>{{ page.title }}</h1>
+    <p class="collection-description">{{ page.description }}</p>
+  </div>
+
+  <div class="photo-grid">
+    {% for photo in page.photos %}
+    <a href="{{ site.image_base_url }}/{{ photo.file }}" 
+       class="glightbox" 
+       data-gallery="collection"
+       data-title="{{ photo.title }}"
+       data-description="{{ photo.caption }}">
+      <div class="grid-image" style="background-image: url('{{ site.image_base_url }}/{{ photo.file }}')"></div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({ touchNavigation: true, loop: true });
+</script>

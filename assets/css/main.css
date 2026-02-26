@@ -233,3 +233,73 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+/* ===== COLLECTION PAGE ===== */
+.collection-page {
+  max-width: 1200px;
+  margin: 6rem auto 4rem;
+  padding: 0 2rem;
+}
+
+.collection-header {
+  margin-bottom: 3rem;
+}
+
+.back-link {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a6e5f;
+  display: inline-block;
+  margin-bottom: 1rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover { color: #2c2416; }
+
+.collection-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.collection-description {
+  font-size: 0.9rem;
+  color: #7a6e5f;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ===== PHOTO GRID ===== */
+.photo-grid {
+  columns: 3;
+  column-gap: 1rem;
+}
+
+.photo-grid a {
+  display: block;
+  margin-bottom: 1rem;
+  break-inside: avoid;
+  overflow: hidden;
+}
+
+.grid-image {
+  width: 100%;
+  padding-bottom: 75%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.photo-grid a:hover .grid-image {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .photo-grid { columns: 2; }
+}
+
+@media (max-width: 480px) {
+  .photo-grid { columns: 1; }
+}
