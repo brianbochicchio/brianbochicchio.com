@@ -44,9 +44,12 @@ def update_collection(collection, filename, title, caption):
     
     new_entry = f"  - file: {filename}\n    title: {title}\n    caption: {caption}\n"
     
-    # Insert before the closing --- or at end of photos list
-    content = content.rstrip()
-    content += f"\n  - file: {filename}\n    title: {title}\n    caption: {caption}\n"
+    # Find the closing --- and insert before it
+    if content.endswith("---\n") or content.endswith("---"):
+        content = content.rstrip("-").rstrip() + "\n" + new_entry + "---\n"
+    else:
+        # No closing ---, just append inside photos list
+        content = content.rstrip() + "\n" + new_entry
     
     collection_path.write_text(content)
     print(f"✓ Updated {collection}/index.md")
