@@ -178,3 +178,58 @@ a {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+/* ===== ARCHIVE ===== */
+.archive-page {
+  margin: 6rem auto 4rem;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.archive-collections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.collection-card {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.collection-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+}
+
+.collection-card:hover .collection-image {
+  transform: scale(1.03);
+}
+
+.collection-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(to top, rgba(20,14,6,0.85) 0%, transparent 100%);
+  color: #f5f0e8;
+}
+
+.collection-info h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.collection-info p {
+  font-size: 0.85rem;
+  color: #d4c9b5;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
