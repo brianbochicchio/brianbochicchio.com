@@ -17,4 +17,4 @@ project for othe tech-savvy photographers.
 
 Once I flesh my own site out more, I might just do that.  
 
-Essentially this is a near zero cost site.  I used GitHub pages for hosting and CloudFlare R2 (free plan for now).  Also no CMS or complext back-end.  What's not to love.  
+Essentially this is a near zero cost site.  I used GitHub pages for hosting and CloudFlare R2 (free plan for now).  Also no CMS or complex back-end.  What's not to love.  
