@@ -14,7 +14,7 @@ I use AI tools deliberately and collaboratively. The thinking, the decisions, th
 
 **Trust but verify.** AI output gets read, questioned, and tested — not blindly shipped. Pattern matching isn't the same as understanding, and I know the difference.
 
-**Honest about the process.** I won't hide AI involvement if asked. I also won't lead with it — because the tool isn't the story. The work is.
+**Honest about the process.** I’m transparent about my process, but I don't lead with the tool—because the tool isn't the story. The work is.
 
 **Co-creation, not automation.** I don't use AI to skip the hard parts. I use it to think better, move faster, and punch above my weight as a solo developer and creative technologist.
 
